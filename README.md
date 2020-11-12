@@ -78,6 +78,6 @@ sudo pip install -r requirements.txt
 ### Guidelines 
 The module can be executed with and wihout the ground truth data. 
 1. On  execution without the ground truth data
-![without_gt](plots/main&fridge.png)
+![without_gt](plots/main_fridge.png)
 2. On execution without the ground truth data 
 ![with_gt](plots/only_mains.png)
