@@ -77,6 +77,7 @@ sudo pip install -r requirements.txt
 
 ### Guidelines 
 The module can be executed with and wihout the ground truth data. 
+<<<<<<< HEAD
 1. ChattisGarh Data Fridge Disaggregation with MODEL 1 sampled at 15 Mins
 ![cfmod1](plots/chhatis.png)
 2. ChattisGarh Data Fridge Disaggregation with MODEL 2 sampled at 15 Mins
@@ -94,3 +95,9 @@ The module can be executed with and wihout the ground truth data.
 ![dafmod2](plots/dataportMinMax.png)
 
 
+=======
+1. On  execution without the ground truth data
+![without_gt](plots/main_fridge.png)
+2. On execution without the ground truth data 
+![with_gt](plots/only_mains.png)
+>>>>>>> db1f65df147c12195bd0fa71f467d8ee0bdd93cb
