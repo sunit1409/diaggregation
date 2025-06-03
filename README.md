@@ -101,3 +101,17 @@ The module can be executed with and wihout the ground truth data.
 2. On execution without the ground truth data 
 ![with_gt](plots/only_mains.png)
 >>>>>>> db1f65df147c12195bd0fa71f467d8ee0bdd93cb
+
+## Simple AC Disaggregation
+The repository now includes a small helper function `disaggregate_ac` for
+estimating the power usage of an air conditioner from aggregate mains data.
+It assumes that AC usage causes the mains consumption to rise above a given
+threshold relative to the typical baseline.
+
+Example:
+```python
+from ac_disaggregation import disaggregate_ac
+ac_power = disaggregate_ac(mains_power, threshold=1200)
+```
+The function returns an array containing the estimated AC power for each
+sample in the input.
